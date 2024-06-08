@@ -17,6 +17,8 @@ Como hacerlo:
 
 */
 
+let frase = "Hola, que tal, soy Fabian Huertas. FABIAN";
+
 function coincidencias(frase, busqueda) {
     
     let textoLimpio = frase.toLowerCase() // Transforma todas las palabras en minuscula
@@ -42,4 +44,4 @@ function coincidencias(frase, busqueda) {
     return resultado;
 }
 
-console.log("Numero de coincidencias en la frase:",coincidencias("Hola, que tal, soy Fabian Huertas. FABIAN", "fabian")); 
+console.log("La frase es: "+frase+"\nNumero de coincidencias en la frase:",coincidencias( frase, "fabian")); 
